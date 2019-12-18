@@ -61,6 +61,35 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+
+.edit-button {
+  position: absolute;
+  top: 25px;
+  right: 95px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: rgb(174, 101, 210);
+}
+
+.edit-button:hover {
+  background-color: rgb(143, 38, 196);
+  color: white;
+}
+
+.delete-button {
+  position: absolute;
+  top: 25px;
+  right: 155px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: rgb(210, 101, 101);
+}
+
+.delete-button:hover {
+  background-color: rgb(196, 38, 38);
+  color: white;
+}
+
 .save-button:hover {
   background-color: green;
   color: white;
@@ -70,6 +99,8 @@ body {
   padding: 5px 10px;
   background-color: lightskyblue;
 }
+
+
 
 .movie-warning {
   color: red;
